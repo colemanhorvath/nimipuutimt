@@ -1,0 +1,186 @@
+{
+  "questionSets": {
+    "greetings": [
+      {
+        "nimipuutimt": "ta'c méeywi",
+        "english": "good morning"
+      },
+      {
+        "nimipuutimt": "ta'c haláẋp",
+        "english": "good afternoon"
+      },
+      {
+        "nimipuutimt": "ta'c kuléewit",
+        "english": "good evening"
+      },
+      {
+        "nimipuutimt": "ta'c cik'éetin'",
+        "english": "good night"
+      },
+      {
+        "nimipuutimt": "ta'c léeheyn",
+        "english": "good day"
+      },
+      {
+        "nimipuutimt": "manáa wées",
+        "english": "how are you"
+      }
+    ],
+    "time": [
+      {
+        "nimipuutimt": "halẋpáawinaq'it",
+        "english": "Monday"
+      },
+      {
+        "nimipuutimt": "lepítkaa'awn/lepítipakaa'awn",
+        "english": "Tuesday"
+      },
+      {
+        "nimipuutimt": "mitáatkaa'awn/mitáatipakaa'awn",
+        "english": "Wednesday"
+      },
+      {
+        "nimipuutimt": "píileptkaa'awn/píileptipakaa'awn",
+        "english": "Thursday"
+      },
+      {
+        "nimipuutimt": "páaẋatkaa'awn/páaẋatipakaa'awn",
+        "english": "Friday"
+      },
+      {
+        "nimipuutimt": "halẋpawit'áasx",
+        "english": "Saturday"
+      },
+      {
+        "nimipuutimt": "halẋpáawit",
+        "english": "Sunday"
+      },
+      {
+        "nimipuutimt": "'elwéht",
+        "english": "Spring"
+      },
+      {
+        "nimipuutimt": "táyam",
+        "english": "Summer"
+      },
+      {
+        "nimipuutimt": "seẋním'",
+        "english": "Fall"
+      },
+      {
+        "nimipuutimt": "'ením'",
+        "english": "Winter"
+      },
+      {
+        "nimipuutimt": "híisumtuks",
+        "english": "Month, Sun, Moon"
+      },
+      {
+        "nimipuutimt": "wilúupup",
+        "english": "January"
+      },
+      {
+        "nimipuutimt": "'alatam'áal'",
+        "english": "February"
+      },
+      {
+        "nimipuutimt": "latíit'al/latiit'áal",
+        "english": "March"
+      },
+      {
+        "nimipuutimt": "qeqit'ál/qeqiit'áal",
+        "english": "April"
+      },
+      {
+        "nimipuutimt": "'apa'áal",
+        "english": "May"
+      },
+      {
+        "nimipuutimt": "tustimasáat'al",
+        "english": "June"
+      },
+      {
+        "nimipuutimt": "q'oyẋc'áal",
+        "english": "July"
+      },
+      {
+        "nimipuutimt": "wa'wama'ayq'áal",
+        "english": "August"
+      },
+      {
+        "nimipuutimt": "pik'unma'ay'q'áal",
+        "english": "September"
+      },
+      {
+        "nimipuutimt": "hóopl'al",
+        "english": "October"
+      },
+      {
+        "nimipuutimt": "seẋliw'ál",
+        "english": "November"
+      },
+      {
+        "nimipuutimt": "ha'óqoy",
+        "english": "December"
+      },
+      {
+        "nimipuutimt": "'inmíiwit'",
+        "english": "Year"
+      }
+    ],
+    "weather": [
+      {
+        "nimipuutimt": "'icwéy's híiwes",
+        "english": "It's cold"
+      },
+      {
+        "nimipuutimt": "lu'úq'ic híiwes",
+        "english": "It's warm"
+      },
+      {
+        "nimipuutimt": "'iyéq'is híiwes",
+        "english": "It's hot"
+      },
+      {
+        "nimipuutimt": "hiyk'íwce",
+        "english": "It's sunny"
+      },
+      {
+        "nimipuutimt": "t'iipít híiwes",
+        "english": "It's cloudy"
+      },
+      {
+        "nimipuutimt": "hahátyaca",
+        "english": "It's windy"
+      },
+      {
+        "nimipuutimt": "hiwéeqise",
+        "english": "It's raining"
+      },
+      {
+        "nimipuutimt": "haykáat híiwes",
+        "english": "It's a clear sky"
+      },
+      {
+        "nimipuutimt": "téemul hitqíikse",
+        "english": "It's hailing"
+      },
+      {
+        "nimipuutimt": "hitéemqiqeykse",
+        "english": "It's thundering"
+      },
+      {
+        "nimipuutimt": "hitaqasa'yóoẋotsa",
+        "english": "It's lightening"
+      },
+      {
+        "nimipuutimt": "hi'péecese",
+        "english": "It's foggy"
+      },
+      {
+        "nimipuutimt": "sitq'íin",
+        "english": "It's muddy"
+      }
+    ]
+  }
+}
