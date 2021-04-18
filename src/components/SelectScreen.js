@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import { Route, Switch, useHistory, useRouteMatch, Link } from 'react-router-dom';
-import QuizScreen from './QuizScreen'
+import QuizScreen from './QuizScreen';
 import '../style/SelectScreen.css'
 
 function SelectScreen() {
@@ -12,9 +12,9 @@ function SelectScreen() {
     <div>
       <Switch>
         <Route exact path={path}>
-          <QuizSelect url={url} />
+          <QuizSelect url={url} history={history} />
         </Route>
-        <Route path={`${path}/:quizId`}>
+        <Route path={`${path}/:quizId/:isEng`}>
           <QuizScreen />
         </Route>
       </Switch>
@@ -28,45 +28,48 @@ function SelectScreen() {
   )
 }
 
-function QuizSelect({ url }) {
+function QuizSelect({ url, history }) {
+  let [isEnglish, setIsEnglish] = useState(false);
+  let quizzes = ['greetings', 'time', 'weather', 'audio'];
+  let [quizName, setQuizName] = useState();
+
+  let changeInput = (event) => {
+    setQuizName(event.target.value);
+  }
+
   return (
     <div className='wrapper'>
       <div className='innerWrapper'>
         <span className='select'>Select a quiz</span>
-        <ul className='quizlist'>
-          <li className='item'>
-            <Link
-              to={`${url}/greetings`}
-              className='link'
-            >
-              <button className='quizButton'>
-                Greetings
-              </button>
-            </Link>
-          </li>
-          <li className='item'>
-            <Link
-              to={`${url}/time`}
-              className='link'
-            >
-              <button className='quizButton'>
-                Time
-              </button>
-            </Link>
-          </li>
-          <li className='item'>
-            <Link
-              to={`${url}/weather`}
-              className='link'
-            >
-              <button className='quizButton'>
-                Weather
-              </button>
-            </Link>
-          </li>
-        </ul>
+        <button
+          className='lang button'
+          onClick={() => setIsEnglish(!isEnglish)}
+        >
+          {"Select language direction: \n" +
+            (isEnglish ? 'English => Nimipuutímt' : 'Nimipuutímt => English')}
+        </button>
+        <QuizList quizzes={quizzes} url={url} isEnglish={isEnglish} />
       </div>
     </div>
+  )
+}
+
+function QuizList(props) {
+  return (
+    <ul className='quizlist'>
+      {props.quizzes.map(name =>
+        <li className='item'>
+          <Link
+            to={`${props.url}/${name}/${props.isEnglish}`}
+            className='link'
+          >
+            <button className='quiz button'>
+              {name}
+            </button>
+          </Link>
+        </li>)
+      }
+    </ul>
   )
 }
 

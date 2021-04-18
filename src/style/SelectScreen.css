@@ -27,7 +27,7 @@
   display: flex;
   flex-direction: column;
   justify-content: right;
-  font-family:fantasy;
+  font-family:'Stencil Std', 'Jazz LET', 'Times New Roman', serif;
 }
 
 .quizlist {
@@ -36,12 +36,11 @@
   justify-content: center;
   text-align: center;
   padding: 0;
+  margin-top: 0px;
 }
 
 .item {
   font-weight: bold;
-  /* background-color:linen; */
-  /* width: 300px; */
   margin: auto;
   margin-top: 10px;
   border-radius: 10px;
@@ -59,18 +58,30 @@
   font-size: 36px;
 }
 
-.quizButton {
+.button {
   background-color:linen;
-  width: 300px;
-  height: 50px;
   border-radius: 10px;
   padding: 5px;
-  font-size: 20px;
   font-weight: bold;
-  font-family: fantasy;
+  font-family: 'Stencil Std', 'Jazz LET', 'Times New Roman', serif;
   border-width: 0px;
+  text-transform: capitalize;
 }
 
 .quizButton:hover {
   background-color: lightgray;
+}
+
+.quiz {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.lang {
+  width: 200px;
+  font-size: 16px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }

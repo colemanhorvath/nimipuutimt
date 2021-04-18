@@ -1,6 +1,6 @@
 import qs from "./questions.json"
 
-export default function getQs(id, qIsEnglish) {
+export function getQs(id, qIsEnglish) {
   let qlist = qs.questionSets[id].slice();
   let len = qlist.length;
 
@@ -60,4 +60,16 @@ function getOptions(answers, word) {
   options[correctIndex] = options[0];
   options[0] = temp;
   return options;
+}
+
+export function getEnglish(id, nim) {
+  let qlist = qs.questionSets[id].slice();
+
+  for (let q of qlist) {
+    if (q.nimipuutimt === nim) {
+      return q.english;
+    }
+  }
+
+  return null;
 }

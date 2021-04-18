@@ -3,7 +3,8 @@
     "greetings": [
       {
         "nimipuutimt": "ta'c méeywi",
-        "english": "good morning"
+        "english": "good morning",
+        "audio": "milk.mp3"
       },
       {
         "nimipuutimt": "ta'c haláẋp",
@@ -180,6 +181,148 @@
       {
         "nimipuutimt": "sitq'íin",
         "english": "It's muddy"
+      }
+    ],
+    "audio": [
+      {
+        "nimipuutimt": "píiyep",
+        "english": "An older brother"
+      },
+      {
+        "nimipuutimt": "támsoy",
+        "english": "Ant"
+      },
+      {
+        "nimipuutimt": "k'úpk'up",
+        "english": "Back"
+      },
+      {
+        "nimipuutimt": "cíickan",
+        "english": "Blanket"
+      },
+      {
+        "nimipuutimt": "yoosyóos",
+        "english": "Blue"
+      },
+      {
+        "nimipuutimt": "híik'ay",
+        "english": "Bowl"
+      },
+      {
+        "nimipuutimt": "t'iipít",
+        "english": "Cloudy"
+      },
+      {
+        "nimipuutimt": "wilúupup",
+        "english": "January"
+      },
+      {
+        "nimipuutimt": "léeheyn",
+        "english": "Day"
+      },
+      {
+        "nimipuutimt": "qíiwn",
+        "english": "Elder man"
+      },
+      {
+        "nimipuutimt": "píst",
+        "english": "Father"
+      },
+      {
+        "nimipuutimt": "hípt",
+        "english": "Food"
+      },
+      {
+        "nimipuutimt": "láwtiwaa",
+        "english": "Friend"
+      },
+      {
+        "nimipuutimt": "hipst'úuyce",
+        "english": "I am full"
+      },
+      {
+        "nimipuutimt": "qi'yáawca",
+        "english": "I am thirsty"
+      },
+      {
+        "nimipuutimt": "wéwluqse",
+        "english": "I want"
+      },
+      {
+        "nimipuutimt": "wéeyux",
+        "english": "Leg"
+      },
+      {
+        "nimipuutimt": "hamól'ic",
+        "english": "Lovable"
+      },
+      {
+        "nimipuutimt": "háama",
+        "english": "Man"
+      },
+      {
+        "nimipuutimt": "núkt",
+        "english": "Meat"
+      },
+      {
+        "nimipuutimt": "háham",
+        "english": "Men"
+      },
+      {
+        "nimipuutimt": "qáhas",
+        "english": "Milk"
+      },
+      {
+        "nimipuutimt": "méeywi",
+        "english": "Morning"
+      },
+      {
+        "nimipuutimt": "wáaw'a",
+        "english": "Mosquito"
+      },
+      {
+        "nimipuutimt": "k'úyc",
+        "english": "Nine"
+      },
+      {
+        "nimipuutimt": "tóhon",
+        "english": "Pants"
+      },
+      {
+        "nimipuutimt": "kóta",
+        "english": "Quarter"
+      },
+      {
+        "nimipuutimt": "síis",
+        "english": "Soup"
+      },
+      {
+        "nimipuutimt": "sóoẋ",
+        "english": "Spoon"
+      },
+      {
+        "nimipuutimt": "kuhét",
+        "english": "Tall"
+      },
+      {
+        "nimipuutimt": "lepít",
+        "english": "Two"
+      },
+      {
+        "nimipuutimt": "kúus",
+        "english": "Water"
+      },
+      {
+        "nimipuutimt": "ẋayẋayẋ",
+        "english": "White"
+      },
+      {
+        "nimipuutimt": "'áayat'",
+        "english": "Woman"
+      },
+      {
+        "nimipuutimt": "póoy",
+        "english": "Womans niece"
       }
     ]
   }
