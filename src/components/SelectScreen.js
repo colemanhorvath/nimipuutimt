@@ -49,6 +49,9 @@ function QuizSelect({ url, history }) {
             (isEnglish ? 'English => Nimipuutímt' : 'Nimipuutímt => English')}
         </button>
         <QuizList quizzes={quizzes} url={url} isEnglish={isEnglish} />
+        <span className='asterisk'>
+          Please note that audio is currently only available in the "Audio" quiz
+        </span>
       </div>
     </div>
   )

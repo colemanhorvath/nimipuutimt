@@ -114,7 +114,6 @@ function QuizScreen() {
         >
           {done ? 'Restart' : 'Next'}
         </button>
-        {/* <button onClick={() => alert(selected)}>Test</button> */}
         <header>{`${i + 1}/${qs.length}`}</header>
       </div>
     </div>
